@@ -50,10 +50,17 @@ struct CodeAttribute {
     uint16_t max_stack;
     uint16_t max_locals;
     uint32_t code_length;
-    std::vector<uint8_t> code; // Os bytes do bytecode (o que o interpretador executará!)
+    std::vector<uint8_t> code; // Os bytes do bytecode
+    
+    struct ExceptionTableEntry {
+        uint16_t start_pc;
+        uint16_t end_pc;
+        uint16_t handler_pc;
+        uint16_t catch_type;
+    };
+    
     uint16_t exception_table_length;
-    // Aqui você adicionaria a estrutura da Exception Table e atributos internos
-    // Por enquanto, vamos manter os bytes brutos para o bytecode.
+    std::vector<ExceptionTableEntry> exception_table;
 };
 
 // Estrutura para os Methods

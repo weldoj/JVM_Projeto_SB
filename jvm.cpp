@@ -43,6 +43,12 @@ int main(int argc, char* argv[]) {
         ler_class_file(filename, class_data); 
         std::cout << "✅ Leitura do arquivo .class concluída com sucesso." << std::endl;
 
+        // REGISTRAR NA METHOD AREA
+        std::string class_name = get_class_name(class_data.constant_pool, class_data.this_class_idx);
+        method_area[class_name] = std::move(class_data);
+        // Nota: class_data agora está vazio (move), usamos a referência do map
+        ClassFile& loaded_class = method_area[class_name];
+
         // --- 3. FASE DE CONTROLE E EXECUÇÃO ---
         if (flag == "-display") {
             // Requisito: Leitor de ponto class e exibidor de bytecode.
@@ -69,7 +75,7 @@ int main(int argc, char* argv[]) {
             std::cout << "\n--- Modo: INTERPRETADOR (EXECUÇÃO) ---" << std::endl;
             
             // Chama a função principal de execução do módulo interpreter.cpp
-            executar_jvm(class_data); 
+            executar_jvm(loaded_class); 
 
             std::cout << "\n==================================================" << std::endl;
             std::cout << "Execucao Concluida." << std::endl;

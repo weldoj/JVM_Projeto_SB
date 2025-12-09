@@ -31,7 +31,8 @@ struct HeapObject {
     int type; 
     size_t size; // Tamanho total em unidades de jword (campos ou elementos do array).
     std::vector<jword> data; // Os dados reais (campos de instância, elementos).
-    uint16_t class_index; // Índice para o CONSTANT_Class no CP.
+    std::string class_name;  // Nome resolvido da classe (essencial para polimorfismo)
+
 };
 
 // Estrutura do Frame de Pilha (Stack Frame)
@@ -40,6 +41,7 @@ struct Frame {
     std::vector<jword> operand_stack;
     uint32_t pc;
     const std::vector<uint8_t>* code;
+    const std::vector<CodeAttribute::ExceptionTableEntry>* exception_table;
     const ConstantPool* class_constant_pool;
     
     Frame(const MethodInfo& method, const ConstantPool& cp);
@@ -50,6 +52,14 @@ extern std::vector<Frame> jvm_stack;
 
 // O Heap Simulado: O índice no vetor é a referência (jref).
 extern std::vector<HeapObject> heap; 
+
+// Method Area: Mapa de Nome da Classe -> ClassFile carregado
+#include <map>
+#include <string>
+extern std::map<std::string, ClassFile> method_area;
+
+// Função para obter (ou carregar) uma classe
+ClassFile* get_class_from_method_area(const std::string& class_name); 
 
 // =======================================================================
 // 2. PROTÓTIPOS DE FUNÇÕES DE MANIPULAÇÃO DE DADOS
@@ -71,7 +81,7 @@ void push_jdouble(Frame& frame, double value);
 double pop_jdouble(Frame& frame);
 
 // Funções de Gerenciamento de Heap
-jref allocate_heap_object(int type, size_t size, uint16_t class_index);
+jref allocate_heap_object(int type, size_t size, std::string class_name);
 
 // =======================================================================
 // 3. PROTÓTIPOS DE EXECUÇÃO PRINCIPAL

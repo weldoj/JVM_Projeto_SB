@@ -4,6 +4,7 @@
 #include <stdexcept>
 #include <cstring>   // Para std::memcpy
 #include <iomanip>
+#include <iostream>
 
 // =======================================================================
 // 1. FUNÇÕES AUXILIARES BIG-ENDIAN (Implementação)
@@ -156,11 +157,16 @@ void ler_atributo_code(std::ifstream& file, MethodInfo& method) {
     file.read(reinterpret_cast<char*>(code_attr.code.data()), code_attr.code_length);
     if (!file.good()) throw std::runtime_error("Erro ao ler bytecode.");
 
-    // 2. Pular a tabela de exceções
+    // 2. LER A TABELA DE EXCEÇÕES
     code_attr.exception_table_length = read_u2(file);
-    // Cada entrada tem 8 bytes (start_pc, end_pc, handler_pc, catch_type)
-    file.seekg(code_attr.exception_table_length * 8, std::ios::cur);
-    if (!file.good()) throw std::runtime_error("Erro ao pular tabela de exceções.");
+    code_attr.exception_table.resize(code_attr.exception_table_length);
+    
+    for (int i = 0; i < code_attr.exception_table_length; i++) {
+        code_attr.exception_table[i].start_pc = read_u2(file);
+        code_attr.exception_table[i].end_pc = read_u2(file);
+        code_attr.exception_table[i].handler_pc = read_u2(file);
+        code_attr.exception_table[i].catch_type = read_u2(file);
+    }
 
     // 3. Pular atributos do próprio atributo "Code"
     uint16_t code_attributes_count = read_u2(file);
@@ -263,6 +269,15 @@ void ler_class_file(const std::string& filename, ClassFile& class_data) {
         // 6. Atributos da Classe (final)
         class_data.attributes_count = read_u2(file);
         pular_lista_atributos(file, class_data.attributes_count);
+        
+        // --- DETALHES DO LEITOR ---
+        std::cout << "\n\t[LEITOR] Versao do ClassFile: " << class_data.major_version << "." << class_data.minor_version << std::endl;
+        std::cout << "\t[LEITOR] Constant Pool Count: " << cp_count << std::endl;
+        std::cout << "\t[LEITOR] Interfaces: " << interfaces_count << std::endl;
+        std::cout << "\t[LEITOR] Fields: " << class_data.fields.size() << std::endl;
+        std::cout << "\t[LEITOR] Methods: " << class_data.methods.size() << std::endl;
+        std::cout << "\t[LEITOR] Attributes: " << class_data.attributes_count << std::endl;
+
         
     } catch (const std::exception& e) {
         file.close();
