@@ -1,0 +1,3131 @@
+==================================================
+🚀 JVM v1.0: Processando arquivo Belote.class
+==================================================
+
+	[LEITOR] Versao do ClassFile: 46.0
+	[LEITOR] Constant Pool Count: 158
+	[LEITOR] Interfaces: 0
+	[LEITOR] Fields: 2
+	[LEITOR] Methods: 5
+	[LEITOR] Attributes: 1
+✅ Leitura do arquivo .class concluída com sucesso.
+
+--- Modo: INTERPRETADOR (EXECUÇÃO) ---
+DEBUG: Running main
+OP: bb PC: 0
+OP: 59 PC: 3
+OP: b7 PC: 4
+DEBUG: invokespecial executing Belote.<init>
+OP: 2a PC: 0
+OP: b7 PC: 1
+OP: 7 PC: 4
+OP: bd PC: 5
+DEBUG: anewarray created ref 2 size 4
+OP: 59 PC: 8
+OP: 3 PC: 9
+OP: 12 PC: 10
+OP: 53 PC: 12
+DEBUG: aastore: array 2 index 0 value 3
+OP: 59 PC: 13
+OP: 4 PC: 14
+OP: 12 PC: 15
+OP: 53 PC: 17
+DEBUG: aastore: array 2 index 1 value 4
+OP: 59 PC: 18
+OP: 5 PC: 19
+OP: 12 PC: 20
+OP: 53 PC: 22
+DEBUG: aastore: array 2 index 2 value 5
+OP: 59 PC: 23
+OP: 6 PC: 24
+OP: 12 PC: 25
+OP: 53 PC: 27
+DEBUG: aastore: array 2 index 3 value 6
+OP: 4c PC: 28
+OP: 10 PC: 29
+OP: bd PC: 31
+DEBUG: anewarray created ref 7 size 13
+OP: 59 PC: 34
+OP: 3 PC: 35
+OP: 12 PC: 36
+OP: 53 PC: 38
+DEBUG: aastore: array 7 index 0 value 8
+OP: 59 PC: 39
+OP: 4 PC: 40
+OP: 12 PC: 41
+OP: 53 PC: 43
+DEBUG: aastore: array 7 index 1 value 9
+OP: 59 PC: 44
+OP: 5 PC: 45
+OP: 12 PC: 46
+OP: 53 PC: 48
+DEBUG: aastore: array 7 index 2 value 10
+OP: 59 PC: 49
+OP: 6 PC: 50
+OP: 12 PC: 51
+OP: 53 PC: 53
+DEBUG: aastore: array 7 index 3 value 11
+OP: 59 PC: 54
+OP: 7 PC: 55
+OP: 12 PC: 56
+OP: 53 PC: 58
+DEBUG: aastore: array 7 index 4 value 12
+OP: 59 PC: 59
+OP: 8 PC: 60
+OP: 12 PC: 61
+OP: 53 PC: 63
+DEBUG: aastore: array 7 index 5 value 13
+OP: 59 PC: 64
+OP: 10 PC: 65
+OP: 12 PC: 67
+OP: 53 PC: 69
+DEBUG: aastore: array 7 index 6 value 14
+OP: 59 PC: 70
+OP: 10 PC: 71
+OP: 12 PC: 73
+OP: 53 PC: 75
+DEBUG: aastore: array 7 index 7 value 15
+OP: 59 PC: 76
+OP: 10 PC: 77
+OP: 12 PC: 79
+OP: 53 PC: 81
+DEBUG: aastore: array 7 index 8 value 16
+OP: 59 PC: 82
+OP: 10 PC: 83
+OP: 12 PC: 85
+OP: 53 PC: 87
+DEBUG: aastore: array 7 index 9 value 17
+OP: 59 PC: 88
+OP: 10 PC: 89
+OP: 12 PC: 91
+OP: 53 PC: 93
+DEBUG: aastore: array 7 index 10 value 18
+OP: 59 PC: 94
+OP: 10 PC: 95
+OP: 12 PC: 97
+OP: 53 PC: 99
+DEBUG: aastore: array 7 index 11 value 19
+OP: 59 PC: 100
+OP: 10 PC: 101
+OP: 12 PC: 103
+OP: 53 PC: 105
+DEBUG: aastore: array 7 index 12 value 20
+OP: 4d PC: 106
+OP: 7 PC: 107
+OP: bd PC: 108
+DEBUG: anewarray created ref 21 size 4
+OP: b3 PC: 111
+DEBUG: putstatic Belote.jogadores val=21
+OP: 10 PC: 114
+OP: bd PC: 116
+DEBUG: anewarray created ref 22 size 52
+OP: b3 PC: 119
+DEBUG: putstatic Belote.baralho val=22
+OP: 3 PC: 122
+OP: 3e PC: 123
+OP: 1d PC: 124
+OP: 7 PC: 125
+OP: a2 PC: 126
+OP: b2 PC: 129
+OP: 1d PC: 132
+OP: bb PC: 133
+OP: 59 PC: 136
+OP: 2b PC: 137
+OP: 1d PC: 138
+OP: 32 PC: 139
+OP: b7 PC: 140
+OP: 53 PC: 143
+DEBUG: aastore: array 21 index 0 value 23
+OP: b2 PC: 144
+OP: b2 PC: 147
+OP: 1d PC: 150
+OP: 32 PC: 151
+OP: b4 PC: 152
+DEBUG: getfield nome on ref 23 val=0
+OP: b6 PC: 155
+null
+OP: 84 PC: 158
+OP: a7 PC: 161
+OP: 1d PC: 124
+OP: 7 PC: 125
+OP: a2 PC: 126
+OP: b2 PC: 129
+OP: 1d PC: 132
+OP: bb PC: 133
+OP: 59 PC: 136
+OP: 2b PC: 137
+OP: 1d PC: 138
+OP: 32 PC: 139
+OP: b7 PC: 140
+OP: 53 PC: 143
+DEBUG: aastore: array 21 index 1 value 24
+OP: b2 PC: 144
+OP: b2 PC: 147
+OP: 1d PC: 150
+OP: 32 PC: 151
+OP: b4 PC: 152
+DEBUG: getfield nome on ref 24 val=0
+OP: b6 PC: 155
+null
+OP: 84 PC: 158
+OP: a7 PC: 161
+OP: 1d PC: 124
+OP: 7 PC: 125
+OP: a2 PC: 126
+OP: b2 PC: 129
+OP: 1d PC: 132
+OP: bb PC: 133
+OP: 59 PC: 136
+OP: 2b PC: 137
+OP: 1d PC: 138
+OP: 32 PC: 139
+OP: b7 PC: 140
+OP: 53 PC: 143
+DEBUG: aastore: array 21 index 2 value 25
+OP: b2 PC: 144
+OP: b2 PC: 147
+OP: 1d PC: 150
+OP: 32 PC: 151
+OP: b4 PC: 152
+DEBUG: getfield nome on ref 25 val=0
+OP: b6 PC: 155
+null
+OP: 84 PC: 158
+OP: a7 PC: 161
+OP: 1d PC: 124
+OP: 7 PC: 125
+OP: a2 PC: 126
+OP: b2 PC: 129
+OP: 1d PC: 132
+OP: bb PC: 133
+OP: 59 PC: 136
+OP: 2b PC: 137
+OP: 1d PC: 138
+OP: 32 PC: 139
+OP: b7 PC: 140
+OP: 53 PC: 143
+DEBUG: aastore: array 21 index 3 value 26
+OP: b2 PC: 144
+OP: b2 PC: 147
+OP: 1d PC: 150
+OP: 32 PC: 151
+OP: b4 PC: 152
+DEBUG: getfield nome on ref 26 val=0
+OP: b6 PC: 155
+null
+OP: 84 PC: 158
+OP: a7 PC: 161
+OP: 1d PC: 124
+OP: 7 PC: 125
+OP: a2 PC: 126
+OP: 3 PC: 164
+OP: 3e PC: 165
+OP: 1d PC: 166
+OP: 7 PC: 167
+OP: a2 PC: 168
+OP: 3 PC: 171
+OP: 36 PC: 172
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 0 value 27
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 1 value 28
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 2 value 29
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 3 value 30
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 4 value 31
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 5 value 32
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 6 value 33
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 7 value 34
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 8 value 35
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 9 value 36
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 10 value 37
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 11 value 38
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 12 value 39
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 27 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: 84 PC: 228
+OP: a7 PC: 231
+OP: 1d PC: 166
+OP: 7 PC: 167
+OP: a2 PC: 168
+OP: 3 PC: 171
+OP: 36 PC: 172
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 13 value 40
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 14 value 41
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 15 value 42
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 16 value 43
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 17 value 44
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 18 value 45
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 19 value 46
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 20 value 47
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 21 value 48
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 22 value 49
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 23 value 50
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 24 value 51
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 25 value 52
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 28 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: 84 PC: 228
+OP: a7 PC: 231
+OP: 1d PC: 166
+OP: 7 PC: 167
+OP: a2 PC: 168
+OP: 3 PC: 171
+OP: 36 PC: 172
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 26 value 53
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 27 value 54
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 28 value 55
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 29 value 56
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 30 value 57
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 31 value 58
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 32 value 59
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 33 value 60
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 34 value 61
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 35 value 62
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 36 value 63
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 37 value 64
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 38 value 65
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 29 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: 84 PC: 228
+OP: a7 PC: 231
+OP: 1d PC: 166
+OP: 7 PC: 167
+OP: a2 PC: 168
+OP: 3 PC: 171
+OP: 36 PC: 172
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 39 value 66
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 40 value 67
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 41 value 68
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 42 value 69
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 43 value 70
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 44 value 71
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 45 value 72
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 46 value 73
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 47 value 74
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 48 value 75
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 49 value 76
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 50 value 77
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: b2 PC: 181
+OP: 1d PC: 184
+OP: 10 PC: 185
+OP: 68 PC: 187
+OP: 15 PC: 188
+OP: 60 PC: 190
+OP: bb PC: 191
+OP: 59 PC: 194
+OP: 1d PC: 195
+OP: 2c PC: 196
+OP: 15 PC: 197
+OP: 32 PC: 199
+OP: 15 PC: 200
+OP: 4 PC: 202
+OP: 60 PC: 203
+OP: b7 PC: 204
+OP: 53 PC: 207
+DEBUG: aastore: array 22 index 51 value 78
+OP: b2 PC: 208
+OP: b2 PC: 211
+OP: 1d PC: 214
+OP: 32 PC: 215
+OP: b4 PC: 216
+DEBUG: getfield nome on ref 30 val=0
+OP: b6 PC: 219
+null
+OP: 84 PC: 222
+OP: a7 PC: 225
+OP: 15 PC: 174
+OP: 10 PC: 176
+OP: a2 PC: 178
+OP: 84 PC: 228
+OP: a7 PC: 231
+OP: 1d PC: 166
+OP: 7 PC: 167
+OP: a2 PC: 168
+OP: b2 PC: 234
+OP: b8 PC: 237
+OP: bb PC: 0
+OP: 59 PC: 3
+OP: 4 PC: 4
+OP: 12 PC: 5
+OP: 4 PC: 7
+OP: b7 PC: 8
+OP: 4d PC: 11
+OP: 3 PC: 12
+OP: 3e PC: 13
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 0 value 78
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 27
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 1 value 27
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 28
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 2 value 28
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 29
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 3 value 29
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 30
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 4 value 30
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 31
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 5 value 31
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 32
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 6 value 32
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 33
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 7 value 33
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 34
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 8 value 34
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 35
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 9 value 35
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 36
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 10 value 36
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 37
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 11 value 37
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 38
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 12 value 38
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 39
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 13 value 39
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 40
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 14 value 40
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 41
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 15 value 41
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 42
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 16 value 42
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 43
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 17 value 43
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 44
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 18 value 44
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 45
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 19 value 45
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 46
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 20 value 46
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 47
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 21 value 47
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 48
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 22 value 48
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 49
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 23 value 49
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 50
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 24 value 50
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 51
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 25 value 51
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 52
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 26 value 52
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 53
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 27 value 53
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 54
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 28 value 54
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 55
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 29 value 55
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 56
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 30 value 56
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 57
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 31 value 57
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 58
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 32 value 58
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 59
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 33 value 59
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 60
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 34 value 60
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 61
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 35 value 61
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 62
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 36 value 62
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 63
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 37 value 63
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 64
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 38 value 64
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 65
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 39 value 65
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 66
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 40 value 66
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 67
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 41 value 67
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 68
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 42 value 68
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 69
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 43 value 69
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 70
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 44 value 70
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 71
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 45 value 71
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 72
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 46 value 72
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 73
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 47 value 73
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 74
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 48 value 74
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 75
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 49 value 75
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 76
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 50 value 76
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 77
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: 10 PC: 20
+OP: 3c PC: 22
+OP: 2a PC: 23
+OP: 1d PC: 24
+OP: 32 PC: 25
+OP: 4d PC: 26
+OP: 2a PC: 27
+OP: 1d PC: 28
+OP: 2a PC: 29
+OP: 1b PC: 30
+OP: 32 PC: 31
+OP: 53 PC: 32
+DEBUG: aastore: array 22 index 51 value 77
+OP: 2a PC: 33
+OP: 1b PC: 34
+OP: 2c PC: 35
+OP: 53 PC: 36
+DEBUG: aastore: array 22 index 51 value 77
+OP: 84 PC: 37
+OP: a7 PC: 40
+OP: 1d PC: 14
+OP: 10 PC: 15
+OP: a2 PC: 17
+OP: b1 PC: 43
+OP: 3 PC: 240
+OP: 3e PC: 241
+OP: 1d PC: 242
+OP: 7 PC: 243
+OP: a2 PC: 244
+OP: 3 PC: 247
+OP: 36 PC: 248
+OP: 15 PC: 250
+OP: 10 PC: 252
+OP: a2 PC: 254
+OP: b2 PC: 257
+OP: 1d PC: 260
+OP: 32 PC: 261
+OP: b2 PC: 262
+OP: 1d PC: 265
+OP: 10 PC: 266
+OP: 68 PC: 268
+OP: 15 PC: 269
+OP: 60 PC: 271
+OP: 32 PC: 272
+OP: b6 PC: 273
+
+	[LEITOR] Versao do ClassFile: 46.0
+	[LEITOR] Constant Pool Count: 52
+	[LEITOR] Interfaces: 0
+	[LEITOR] Fields: 4
+	[LEITOR] Methods: 5
+	[LEITOR] Attributes: 1
+[INFO] Classe carregada dinamicamente: Jogador
+OP: 2a PC: 0
+OP: b4 PC: 1
+DEBUG: getfield cartas on ref 23 val=0
+OP: 2a PC: 4
+OP: b4 PC: 5
+DEBUG: getfield cardCounter on ref 23 val=0
+OP: 2b PC: 8
+OP: 53 PC: 9
+DEBUG: aastore fail (ref=0, index=0) size=124300680581120
+Excecao na JVM: ArrayIndexOutOfBoundsException ou NullPointerException em array store.
+
+==================================================
+Execucao Concluida.
+==================================================
