@@ -11,6 +11,13 @@
 #include "disassembler.h"   // Exibição e Desmontagem
 #include "interpreter.h"    // Execução e Runtime (Corretude)
 
+// =======================================================
+// SOLUÇÃO PARA O ERRO DE LINKAGEM:
+// DECLARAÇÃO EXPLÍCITA DO PROTÓTIPO DE EXECUÇÃO
+// Esta linha resolve o erro "undefined reference to `executar_jvm(ClassFile&)`"
+// =======================================================
+void executar_jvm(ClassFile& class_data); // <<< LINHA CRÍTICA ADICIONADA/CORRIGIDA
+
 /**
  * @brief Função principal da Máquina Virtual Java (JVM).
  * * Responsável por:
@@ -34,20 +41,14 @@ int main(int argc, char* argv[]) {
     ClassFile class_data;
 
     std::cout << "==================================================" << std::endl;
-    std::cout << "🚀 JVM v1.0: Processando arquivo " << filename << std::endl;
+    std::cout << "Processando arquivo " << filename << std::endl;
     std::cout << "==================================================" << std::endl;
 
     try {
         // --- 2. FASE DE LEITURA (Comum a ambas as flags) ---
         // Chama a função principal de leitura do módulo classfile.cpp
         ler_class_file(filename, class_data); 
-        std::cout << "✅ Leitura do arquivo .class concluída com sucesso." << std::endl;
-
-        // REGISTRAR NA METHOD AREA
-        std::string class_name = get_class_name(class_data.constant_pool, class_data.this_class_idx);
-        method_area[class_name] = std::move(class_data);
-        // Nota: class_data agora está vazio (move), usamos a referência do map
-        ClassFile& loaded_class = method_area[class_name];
+        std::cout << "Leitura do arquivo .class concluída com sucesso." << std::endl;
 
         // --- 3. FASE DE CONTROLE E EXECUÇÃO ---
         if (flag == "-display") {
@@ -72,10 +73,10 @@ int main(int argc, char* argv[]) {
 
         } else if (flag == "-run") {
             // Requisito: Corretude da máquina virtual (Interpretar).
-            std::cout << "\n--- Modo: INTERPRETADOR (EXECUÇÃO) ---" << std::endl;
+            // std::cout << "\n--- Modo: INTERPRETADOR (EXECUÇÃO) ---" << std::endl;
             
             // Chama a função principal de execução do módulo interpreter.cpp
-            executar_jvm(loaded_class); 
+            executar_jvm(class_data); 
 
             std::cout << "\n==================================================" << std::endl;
             std::cout << "Execucao Concluida." << std::endl;
@@ -89,7 +90,7 @@ int main(int argc, char* argv[]) {
     } catch (const std::exception& e) {
         // Captura e reporta erros de I/O, formato, ou runtime da JVM
         std::cerr << "\n==================================================" << std::endl;
-        std::cerr << "❌ ERRO FATAL: " << e.what() << std::endl;
+        std::cerr << "ERRO FATAL: " << e.what() << std::endl;
         std::cerr << "==================================================" << std::endl;
         return 1;
     }

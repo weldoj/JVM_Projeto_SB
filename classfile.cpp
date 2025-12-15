@@ -270,13 +270,13 @@ void ler_class_file(const std::string& filename, ClassFile& class_data) {
         class_data.attributes_count = read_u2(file);
         pular_lista_atributos(file, class_data.attributes_count);
         
-        // --- DETALHES DO LEITOR ---
-        std::cout << "\n\t[LEITOR] Versao do ClassFile: " << class_data.major_version << "." << class_data.minor_version << std::endl;
-        std::cout << "\t[LEITOR] Constant Pool Count: " << cp_count << std::endl;
-        std::cout << "\t[LEITOR] Interfaces: " << interfaces_count << std::endl;
-        std::cout << "\t[LEITOR] Fields: " << class_data.fields.size() << std::endl;
-        std::cout << "\t[LEITOR] Methods: " << class_data.methods.size() << std::endl;
-        std::cout << "\t[LEITOR] Attributes: " << class_data.attributes_count << std::endl;
+        // // --- DETALHES DO LEITOR ---
+        // std::cout << "\n\t[LEITOR] Versao do ClassFile: " << class_data.major_version << "." << class_data.minor_version << std::endl;
+        // std::cout << "\t[LEITOR] Constant Pool Count: " << cp_count << std::endl;
+        // std::cout << "\t[LEITOR] Interfaces: " << interfaces_count << std::endl;
+        // std::cout << "\t[LEITOR] Fields: " << class_data.fields.size() << std::endl;
+        // std::cout << "\t[LEITOR] Methods: " << class_data.methods.size() << std::endl;
+        // std::cout << "\t[LEITOR] Attributes: " << class_data.attributes_count << std::endl;
 
         
     } catch (const std::exception& e) {
