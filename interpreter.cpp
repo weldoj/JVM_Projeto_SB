@@ -2064,7 +2064,7 @@ void executar_jvm(ClassFile &class_data) {
   // We can pass trace flag to run_frame?
   // For now, simple debug print loop in run_frame?
 
-  std::cout << "DEBUG: Running main" << std::endl;
+  // std::cout << "DEBUG: Running main" << std::endl;
   try {
     run_frame(*jvm_stack.back());
   } catch (const std::exception &e) {

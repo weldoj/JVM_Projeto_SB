@@ -41,14 +41,14 @@ int main(int argc, char* argv[]) {
     ClassFile class_data;
 
     std::cout << "==================================================" << std::endl;
-    std::cout << "🚀 JVM v1.0: Processando arquivo " << filename << std::endl;
+    std::cout << "Processando arquivo " << filename << std::endl;
     std::cout << "==================================================" << std::endl;
 
     try {
         // --- 2. FASE DE LEITURA (Comum a ambas as flags) ---
         // Chama a função principal de leitura do módulo classfile.cpp
         ler_class_file(filename, class_data); 
-        std::cout << "✅ Leitura do arquivo .class concluída com sucesso." << std::endl;
+        std::cout << "Leitura do arquivo .class concluída com sucesso." << std::endl;
 
         // --- 3. FASE DE CONTROLE E EXECUÇÃO ---
         if (flag == "-display") {
@@ -73,7 +73,7 @@ int main(int argc, char* argv[]) {
 
         } else if (flag == "-run") {
             // Requisito: Corretude da máquina virtual (Interpretar).
-            std::cout << "\n--- Modo: INTERPRETADOR (EXECUÇÃO) ---" << std::endl;
+            // std::cout << "\n--- Modo: INTERPRETADOR (EXECUÇÃO) ---" << std::endl;
             
             // Chama a função principal de execução do módulo interpreter.cpp
             executar_jvm(class_data); 
@@ -90,7 +90,7 @@ int main(int argc, char* argv[]) {
     } catch (const std::exception& e) {
         // Captura e reporta erros de I/O, formato, ou runtime da JVM
         std::cerr << "\n==================================================" << std::endl;
-        std::cerr << "❌ ERRO FATAL: " << e.what() << std::endl;
+        std::cerr << "ERRO FATAL: " << e.what() << std::endl;
         std::cerr << "==================================================" << std::endl;
         return 1;
     }
